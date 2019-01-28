@@ -1,0 +1,4 @@
+base64,-d input, input
+md5sum,-c input, input
+uniq,input,input
+who,input,input

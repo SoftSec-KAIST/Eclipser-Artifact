@@ -1,0 +1,20 @@
+fig2dev,-L tikz input,input
+ufraw-batch,--overwrite input,input
+wrestool,-x input,input
+icotool,-x input,input
+oggenc,input -o output,input
+vorbiscomment,-l input,input
+gnuplot,input,input
+optipng,input,input
+wavpack,-y input.wav,input.wav
+wvunpack,-y input.wv,input.wv
+dcraw,input,input
+dcparse,input,input
+gocr,input,input
+advzip,-l input,input
+advmng,-l input,input
+x264,--crf 24 -o output.264 input,input
+jhead,input,input
+ldactoasc,input,input
+gifsicle,--dither --use-col=bw input -o output,input
+gifdiff,input input,input
